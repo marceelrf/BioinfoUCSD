@@ -1,5 +1,4 @@
 ReverseComplement <- function(Text){
-  require(stringr,quietly = T)
   strand <- NULL
   
   for(i in 1:(str_length(Text))){
