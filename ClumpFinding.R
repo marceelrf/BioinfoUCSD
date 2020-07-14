@@ -1,5 +1,5 @@
 ClumpFinding <- function(Text,k,L,t){
-  require(stringr)
+  require(stringr,quietly = T)
   
   kmer <- NULL
   kmers <- NULL
